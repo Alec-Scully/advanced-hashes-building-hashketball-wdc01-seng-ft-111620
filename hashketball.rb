@@ -1,5 +1,8 @@
 # Write your code here!
+<<<<<<< HEAD
 require 'pry'
+=======
+>>>>>>> 92e6b8dc45c6092135cbac8911c50e0916ebab2e
 
 def game_hash
   test_hash = {
@@ -18,7 +21,11 @@ def game_hash
           :slam_dunks => 1
         },
         { :player_name => "Reggie Evans",
+<<<<<<< HEAD
           :number => 30,
+=======
+          :number => 30
+>>>>>>> 92e6b8dc45c6092135cbac8911c50e0916ebab2e
           :shoe => 14,
           :points => 12,
           :rebounds => 12,
@@ -74,6 +81,7 @@ def game_hash
           :slam_dunks => 2
         },
         { :player_name => "Bismack Biyombo",
+<<<<<<< HEAD
           :number => 0,
           :shoe => 16,
           :points => 12,
@@ -112,9 +120,52 @@ def game_hash
           :steals => 7,
           :blocks => 5,
           :slam_dunks => 12
+=======
+          :number => "0",
+          :shoe => "16",
+          :points => "12",
+          :rebounds => "4",
+          :assists => "7",
+          :steals => "22",
+          :blocks => "15",
+          :slam_dunks => "10"
+        },
+        { :player_name => "DeSagna Diop",
+          :number => "2",
+          :shoe => "14",
+          :points => "24",
+          :rebounds => "12",
+          :assists => "12",
+          :steals => "4",
+          :blocks => "5",
+          :slam_dunks => "5"
+        },
+        { :player_name => "Ben Gordon",
+          :number => "8",
+          :shoe => "15",
+          :points => "33",
+          :rebounds => "3",
+          :assists => "2",
+          :steals => "1",
+          :blocks => "1",
+          :slam_dunks => "0"
+        },
+        { :player_name => "Kemba Walker",
+          :number => "33",
+          :shoe => "15",
+          :points => "6",
+          :rebounds => "12",
+          :assists => "12",
+          :steals => "7",
+          :blocks => "5",
+          :slam_dunks => "12"
+>>>>>>> 92e6b8dc45c6092135cbac8911c50e0916ebab2e
         }
       ]      
     }
   }
+<<<<<<< HEAD
   ##binding.pry
+=======
+>>>>>>> 92e6b8dc45c6092135cbac8911c50e0916ebab2e
 end
